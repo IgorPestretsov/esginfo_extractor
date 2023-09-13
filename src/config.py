@@ -9,7 +9,7 @@ class Config(BaseSettings):
 
     output_file_name: str = "results.xlsx"
 
-    openai_model_name: str = "gpt-3.5-turbo"
+    openai_model_name: str = "gpt-4"
     open_ai_model_temp: int = 0
     api_key: str = Field(alias="OPENAI_KEY")
 

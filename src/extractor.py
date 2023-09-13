@@ -61,7 +61,7 @@ class ESGInfoExtractor:
             i += 1
 
         worksheet.write(i, 0, self.config.other_data_excel_col_name)
-        for i, answer in enumerate(self.esg_info, start=i):
+        for i, answer in enumerate(self.esg_info, start=i+1):
             worksheet.write(i, 0, answer)
         workbook.close()
 
